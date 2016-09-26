@@ -1,0 +1,33 @@
+.active {
+color: cadetblue;
+ background-color: grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: helvetica neue, helvetica, arial, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+}
+
+body {
+font-family: helvetica neue, helvetica, arial, sans-serif;
+}
